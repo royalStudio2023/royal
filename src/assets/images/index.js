@@ -1,9 +1,11 @@
 
 import logo from './img/logo.png'
+import logoSvg from './img/logoSvg.svg'
 import photograph from './img/photograph.svg'
 import hall from './img/hall.png'
 import insta from './img/insta.svg'
 import face from './img/face.svg'
+import tiktok from './img/tiktok.svg'
 import openDrawer from './img/openDrower.svg'
 import closeVector from './img/closeVector.svg'
 import more from './img/more.svg'
@@ -21,9 +23,11 @@ export const Images = {
     prew,
     more,
     logo,
+    logoSvg,
     photograph,
     hall,
     insta,
+    tiktok,
     face,
     openDrawer,
     closeVector,

@@ -8,6 +8,21 @@ body{
 
 }
 
+.will-be-soon{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  p{
+    color: #BEBFC1;
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+}
+
 .all-wrapper {
   padding: 80px 16px;
   @media (min-width: 1279px) {

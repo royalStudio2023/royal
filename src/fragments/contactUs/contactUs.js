@@ -31,18 +31,21 @@ export const ContactUs = ({}) => {
                 <div className='title-and-text-wrapper'>
                     <p className='title'>{t("Social network")}</p>
                     <div className='social-accounts'>
-                        <a href="">
-                            <img src={Images.insta} alt=""/>
+                        <a href="https://www.facebook.com/people/Royal-Studio/100095306148464/?mibextid=9R9pXO" target={'_blank'}>
+                            <img src={Images.face} alt="facebook"/>
                         </a>
-                        <a href="">
-                            <img src={Images.face} alt=""/>
+                        <a href="https://www.tiktok.com/@royal.studio05?_t=8f4hjH2JxX0&_r=1" target={'_blank'}>
+                            <img src={Images.tiktok} alt="tiktok"/>
+                        </a>
+                        <a href="https://www.instagram.com/royalstudia/?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D" target={'_blank'}>
+                            <img src={Images.insta} alt="instagram" />
                         </a>
                     </div>
                 </div>
                 <div className='vector'/>
                 <div className='title-and-text-wrapper' style={{textAlign: 'end'}}>
-                    <p className='title'>{t("Daily")}</p>
-                    <p className='subtitle'> 9:00 - 18:00</p>
+                    <p className='title'>{t("Mon - Sat")}</p>
+                    <p className='subtitle'> 11:00 - 21:00</p>
                 </div>
 
             </div>

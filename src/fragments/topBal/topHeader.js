@@ -29,7 +29,7 @@ export const TopHeader = ({}) => {
         <div>
             <div className='top-header-mobile'>
                 <button className='icon-btn' onClick={() => handleClick('/')}>
-                    <img src={Images.logo} alt="icon"/>
+                    <img src={Images.logoSvg} alt="icon"/>
                 </button>
 
                 <button className='open-btn' onClick={toggleDrawer}>
@@ -43,7 +43,7 @@ export const TopHeader = ({}) => {
             </div>
             <div className='top-header-wrapper'>
                 <button className='icon-btn' onClick={() => handleClick('/')}>
-                    <img src={Images.logo} alt="icon"/>
+                    <img src={Images.logoSvg} alt="icon"/>
                 </button>
                 <div className='links-wrapper'>
                     <button

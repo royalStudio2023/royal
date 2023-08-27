@@ -6,16 +6,23 @@ import {ContactUs} from "./fragments/contactUs";
 function App() {
     return (
         <div className='app-wrapper'>
-            <TopHeader/>
-            <div className='all-wrapper'>
-                <Routes>
-                    <Route path={'/'} element={<Home/>} />
-                    <Route path={'/gallery'} element={<Home/>} />
-                    <Route path={'/halls'} element={<Halls/>} />
-                    <Route path={'/services'} element={<Services/>} />
-                    <Route path={'*'} element={<Home/>} />
-                </Routes>
-                <ContactUs/>
+            {/*<TopHeader/>*/}
+            {/*<div className='all-wrapper'>*/}
+            {/*    <Routes>*/}
+            {/*        <Route path={'/'} element={<Home/>} />*/}
+            {/*        <Route path={'/gallery'} element={<Home/>} />*/}
+            {/*        <Route path={'/halls'} element={<Halls/>} />*/}
+            {/*        <Route path={'/services'} element={<Services/>} />*/}
+            {/*        <Route path={'*'} element={<Home/>} />*/}
+            {/*    </Routes>*/}
+            {/*    <ContactUs/>*/}
+            {/*</div>*/}
+
+
+
+            <div className='will-be-soon'>
+                <p>Բացումը շուտով</p>
+                <p>Открытие в ближайшее время</p>
             </div>
 
         </div>
