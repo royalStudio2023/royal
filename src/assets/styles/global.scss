@@ -1,0 +1,66 @@
+
+body{
+  padding-right: 0!important;
+  overflow: auto!important;
+}
+.app-wrapper {
+  background: #363435;
+
+}
+
+.all-wrapper {
+  padding: 80px 16px;
+  @media (min-width: 1279px) {
+    padding: 100px 80px;
+  }
+  @media (min-width: 1440px) {
+    padding: 100px 130px;
+  }
+  max-width: 1440px;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+
+  margin: 0 auto;
+}
+
+.global-title {
+  color: #BEBFC1;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 auto;
+  @media (min-width: 1279px) {
+    font-size: 48px;
+    margin: 0;
+  }
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+
+.MuiDrawer-paper {
+  background-color: #363435 !important;
+  width: 100%;
+  z-index: 99999!important;
+  top: 0;
+}
+
+.desktop-view{
+  display: none;
+  @media (min-width: 1279px) {
+    display: block;
+  }
+}
+
+.mobile-view{
+  display: block;
+  @media (min-width: 1279px) {
+    display: none;
+  }
+}

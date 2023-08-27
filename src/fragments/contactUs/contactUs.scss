@@ -1,0 +1,117 @@
+
+
+
+.contact-us-wrapper{
+  margin-top: 45px;
+
+  @media (min-width: 1279px) {
+    margin-top: 70px;
+  }
+  .title-and-line{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    @media (min-width: 1279px) {
+      justify-content: flex-start;
+      margin: 0;
+      align-items: flex-start;
+    }
+  }
+
+
+  .line{
+    width: 88px;
+    height: 1px;
+    background: #B98C33;
+    margin-right: 20px;
+    @media (min-width: 1279px) {
+      width: 180px;
+      margin-right: 0;
+    }
+  }
+  .contact-us{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media (min-width: 1279px) {
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+  }
+
+  .vector{
+    width: 5px;
+    height: 5px;
+    background: rgba(190, 191, 193, 0.70);
+    border-radius: 40px;
+    margin: 25px 0;
+    @media (min-width: 1279px) {
+      margin: 50px 0 0;
+    }
+  }
+
+  .title-and-text-wrapper{
+
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media (min-width: 1279px) {
+      align-items: flex-start;
+    }
+
+    .title{
+      color: #BEBFC1;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin-bottom: 25px;
+
+      @media (min-width: 1279px) {
+        font-size: 30px;
+        margin-bottom: 40px;
+      }
+    }
+
+    .subtitle{
+      color: #BEBFC1;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+
+      @media (min-width: 1279px) {
+        font-size: 26px;
+      }
+    }
+
+    .text-style{
+      font-size: 18px;
+      font-weight: 500;
+
+      color: #B98C33;
+      text-decoration: none;
+
+      @media (min-width: 1279px) {
+        font-size: 26px;
+        margin-top: 40px;
+      }
+    }
+  }
+}
+
+.social-accounts{
+  display: flex;
+  align-items: center;
+
+  a{
+    text-decoration: none;
+
+  }
+}

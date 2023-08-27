@@ -1,0 +1,131 @@
+
+.top-header-mobile{
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  position: fixed;
+  height: auto;
+  width: 100%;
+  align-items: center;
+  background: #363435;
+  justify-content: space-between;
+  padding: 16px 24px;
+  z-index: 9999;
+
+
+  button{
+    background: transparent;
+    border: none;
+  }
+  .icon-btn {
+    img {
+      width: 158px;
+      height: 50px;
+    }
+  }
+
+  .open-btn{
+    width: 25px;
+    height: 25px;
+  }
+
+
+  @media (min-width: 1279px) {
+    display: none;
+  }
+}
+
+
+.top-header-wrapper{
+  max-width: 1440px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: fixed;
+  height: auto;
+  width: 100%;
+
+  align-items: center;
+  background: #363435;
+  justify-content: space-between;
+  padding: 20px 40px;
+  z-index: 999;
+  display: none;
+
+  @media (min-width: 1279px) {
+    display: flex;
+  }
+  @media (min-width: 1440px) {
+    padding: 20px 124px;
+  }
+  img{
+    height: 60px;
+    width: 160px;
+  }
+}
+
+.icon-btn{
+  background: transparent;
+  border: none;
+}
+
+.links-wrapper{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+
+  a, button{
+    color: #BEBFC1;
+    font-size: 22px;
+    font-weight: 600;
+    margin-right: 20px;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+  }
+}
+
+.language-and-phone{
+  display: flex;
+  align-items: center;
+}
+
+.phone-number{
+  color: #B98C33;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  margin-right: 24px;
+}
+
+.drawe-body{
+  padding: 15px;
+  z-index: 99999;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  a, button{
+    border: none;
+    background: transparent;
+    color: #BEBFC1;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+  }
+
+  .mobile-line{
+    margin: 15px 0;
+    width: 60px;
+    height: 0.5px;
+    background: #BEBFC1;
+  }
+}
