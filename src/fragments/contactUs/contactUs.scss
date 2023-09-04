@@ -56,13 +56,14 @@
   }
 
   .title-and-text-wrapper{
-
+    width: 100%;
     justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     @media (min-width: 1279px) {
       align-items: flex-start;
+      width: 33%;
     }
 
     .title{
@@ -101,6 +102,26 @@
       @media (min-width: 1279px) {
         font-size: 26px;
         margin-top: 40px;
+      }
+    }
+
+    .text-style-address {
+      text-align: center;
+      @media (min-width: 1279px) {
+        text-align: start;
+      }
+
+      a {
+        font-size: 18px;
+        font-weight: 500;
+        color: #B98C33;
+        text-decoration: none;
+        line-height: 22px;
+        @media (min-width: 1279px) {
+
+          //font-size: 26px;
+          margin-top: 40px;
+        }
       }
     }
   }

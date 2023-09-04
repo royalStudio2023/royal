@@ -16,8 +16,18 @@ import checkmark from './img/checkmark.svg'
 import prew from './img/prew.svg'
 import next from './img/next.svg'
 import sargis from './img/Sargis.jpeg'
+import event from './img/event.jpeg'
+import photoshooting from './img/photoshooting.jpeg'
+import product from './img/product.jpeg'
+import maxresdefault from './img/maxresdefault.jpeg'
+import printing from './img/printing.jpeg'
 
 export const Images = {
+    printing,
+    maxresdefault,
+    product,
+    photoshooting,
+    event,
     sargis,
     next,
     prew,

@@ -1,4 +1,5 @@
 export const ServiceCard = ({title, description, icon, rightTo}) => {
+
     return (
         <>
             {rightTo === false ?
@@ -6,7 +7,7 @@ export const ServiceCard = ({title, description, icon, rightTo}) => {
                     <div className='services-info-wrapper'>
                         <div className='text-line'/>
                         <div className='services-info-padding'>
-                            <h1 className='title'>{title}</h1>
+                            <h1 style={!description ?{ marginBottom:0} : {}} className='title'>{title}</h1>
                             <div className='description'>
                                        <span>
                                           {description}
@@ -27,7 +28,7 @@ export const ServiceCard = ({title, description, icon, rightTo}) => {
                     <div className='right-services-info-wrapper'>
                         <div className='text-line'/>
                         <div className='services-info-padding-end'>
-                            <h1 className='title'>{title}</h1>
+                            <h1 style={!description ?{ marginBottom:0} : {}} className='title'>{title}</h1>
                             <div className='description'>
                                 <span>
                                 {description}

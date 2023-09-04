@@ -20,11 +20,14 @@ export const ContactUs = ({}) => {
                     <p>
                         <a className='text-style' href={'tel:+37444033043'}>044 033 043</a>
                     </p>
-                    <p style={{marginTop: '6px'}}>
+                    <p className={'text-style-address'} style={{marginTop: '10px', }}>
                         <a
                             target={'_blank'}
                             href='https://www.google.com/maps/place/Venecia/@40.8294862,43.8318849,20.22z/data=!4m6!3m5!1s0x4041f9a0b8c3af09:0xa11e75fec87a868c!8m2!3d40.8296413!4d43.8318712!16s%2Fg%2F1tjffb1s?entry=ttu'
-                            className='text-style'>Armenia Gyumri, Paruyr Sevak 4a</a>
+                           >
+                            Մեր հասցեն է՝ Պարույր Սևակ 4ա, ՇՊՀ (նախկին Մանկավարժական համլսարան) հարևանությամբ:
+                            {/*Armenia Gyumri, Paruyr Sevak 4a*/}
+                        </a>
                     </p>
                 </div>
                 <div className='vector'/>
@@ -43,7 +46,7 @@ export const ContactUs = ({}) => {
                     </div>
                 </div>
                 <div className='vector'/>
-                <div className='title-and-text-wrapper' style={{textAlign: 'end'}}>
+                <div className='title-and-text-wrapper' style={{textAlign: 'end',width:'auto'}}>
                     <p className='title'>{t("Mon - Sat")}</p>
                     <p className='subtitle'> 11:00 - 21:00</p>
                 </div>

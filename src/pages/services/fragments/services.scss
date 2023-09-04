@@ -123,7 +123,7 @@
     margin-left: 20px;
 
     @media (min-width: 1279px) {
-      font-size: 28px;
+      font-size: 26px;
       margin-bottom: 40px;
       margin-left: 0;
     }
@@ -159,6 +159,7 @@
   }
 
   .hall-image {
+    object-fit: cover;
     width: 260px;
     height: 270px;
     @media (min-width: 1279px) {

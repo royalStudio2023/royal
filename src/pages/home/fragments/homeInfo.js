@@ -19,15 +19,7 @@ export const HomeInfo = ({}) => {
             <div className='text-side'>
                 <h1 className='photography-title'>{t('Photography course')}</h1>
                 <p className='subtitle'>
-                    ՍԱՐԳԻՍ ՎԻՐԱԲՅԱՆ ՖՈՏՈՍՏՈՒԴԻԱՆ անց է կացնում եռամսյա լուսանկարչական դասընթացներ
-                    Նոր խմբակի դասընթացները կսկսվեն ՍԵՊՏԵՄԲԵՐԻՑ
-                    Տրվում է վկայական
-                    {/*Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the*/}
-                    {/*industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type*/}
-                    {/*and scrambled it to make a type specimen book. It has survived not only five centuries, but also the*/}
-                    {/*leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s*/}
-                    {/*with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with*/}
-                    {/*desktop*/}
+                    {t("Simultaneously with the opening of the Royal Studio, a three-month photography course will start. which enable both beginners and beginners to gain professional knowledge in the field of photography, as well as experienced photographers to improve their skills. The courses will be held in our studio and the course will be conducted by a person with many years of experience in this field. famous photographer Sargis Virabyan. Hurry up to register as space is very limited. At the end of the course, a certificate is issued, and the best students will be provided with work." )}
                 </p>
                 <input type="text" placeholder={t('Email address')}/>
                 <button>

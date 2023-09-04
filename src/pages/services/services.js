@@ -8,32 +8,32 @@ export const Services = ({}) => {
 
     const serviceList = [
         {
-            title: 'Name of the service',
-            description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ' +
-                'Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a ' ,
-            icon: Images.hall,
+            title: t('Filming of events'),
+            description: t('Photo/video shooting of weddings, birthdays'),
+            icon: Images.event,
             rightTo: true
         },
         {
-            title: 'Name of the service',
-            description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ' +
-                'Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a ',
-            icon: Images.hall,
+            title: t('Photo sessions'),
+            description: t('Realization of both outdoor and booth photo sessions'),
+            icon: Images.photoshooting,
             rightTo: false
         },
         {
-            title: 'Name of the service',
-            description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ' +
-                'Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a ',
-            icon: Images.hall,
+            title: t('Product photography'),
+            icon: Images.product,
             rightTo: true
         },
         {
-            title: 'Name of the service',
-            description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ' +
-                'Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a ' ,
-            icon: Images.hall,
+            title:  t('Printing of photo books'),
+            icon: Images.maxresdefault,
             rightTo: false
+        },
+        {
+            title:  t('Printing'),
+            description:  t('Printing of photos, printing of pillows, t-shirts, photo stones, magnets, clocks, puzzles') ,
+            icon: Images.printing,
+            rightTo: true
         },
     ]
 
