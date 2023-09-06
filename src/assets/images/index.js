@@ -22,7 +22,28 @@ import product from './img/product.jpeg'
 import maxresdefault from './img/maxresdefault.jpeg'
 import printing from './img/printing.jpeg'
 
+import hall1 from './img/halls/Hall01.png'
+import hall2 from './img/halls/Hall02.png'
+import hall3 from './img/halls/Hall03.png'
+import hall4 from './img/halls/Hall04.png'
+import hall5 from './img/halls/Hall05.png'
+import hall6 from './img/halls/Hall06.png'
+import hall7 from './img/halls/Hall07.png'
+import hall8 from './img/halls/Hall08.png'
+import hall9 from './img/halls/Hall09.png'
+import hall10 from './img/halls/Hall10.png'
+
 export const Images = {
+    hall1,
+    hall2,
+    hall3,
+    hall4,
+    hall5,
+    hall6,
+    hall7,
+    hall8,
+    hall9,
+    hall10,
     printing,
     maxresdefault,
     product,

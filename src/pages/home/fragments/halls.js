@@ -15,22 +15,22 @@ export const Halls = ({}) => {
             <h1 className='global-title'>{t("our Halls")}</h1>
             <div className='hall-items-wrapper'>
                 <div className='hall-item'>
-                    <img src={Images.hall} alt="img"/>
-                    <p>Hall #1</p>
+                    <img src={Images.hall1} alt="img"/>
+                    {/*<p>Hall #1</p>*/}
                 </div>
                 <div className='hall-item'>
-                    <img src={Images.hall} alt="img"/>
-                    <p>Hall #1</p>
+                    <img src={Images.hall2} alt="img"/>
+                    {/*<p>Hall #1</p>*/}
                 </div>
             </div>
             <div className='hall-items-wrapper'>
                 <div className='hall-item'>
-                    <img src={Images.hall} alt="img"/>
-                    <p>Hall #1</p>
+                    <img src={Images.hall3} alt="img"/>
+                    {/*<p>Hall #1</p>*/}
                 </div>
                 <div className='hall-item'>
-                    <img src={Images.hall} alt="img"/>
-                    <p>Hall #1</p>
+                    <img src={Images.hall4} alt="img"/>
+                    {/*<p>Hall #1</p>*/}
                 </div>
             </div>
             <div className='more-btn-wrapper'>
