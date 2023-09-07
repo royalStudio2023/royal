@@ -66,7 +66,7 @@ export const Gallery = ({}) => {
                     naturalSlideWidth={350}
                     naturalSlideHeight={500}
                     totalSlides={4}
-                    visibleSlides={1.2}
+                    visibleSlides={1}
                 >
                     <Slider>
                         <Slide index={0} className='current-slice-wrapper'>

@@ -104,9 +104,11 @@
 
   .services-info-padding-end{
     padding: 0;
-    text-align: start;
+    text-align: center;
+    width: 100%;
 
     @media (min-width: 1279px) {
+      width: auto;
       padding: 40px;
       text-align: end;
     }
@@ -121,11 +123,13 @@
     line-height: normal;
     margin-bottom: 15px;
     margin-left: 20px;
+    text-align: center;
 
     @media (min-width: 1279px) {
       font-size: 26px;
       margin-bottom: 40px;
       margin-left: 0;
+      text-align: unset;
     }
   }
 

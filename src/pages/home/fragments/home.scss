@@ -102,7 +102,7 @@
 
     button {
       background: transparent;
-      margin-top: 14px;
+      //margin-top: 14px;
       border-right: 2px solid #B98C33;
       border-left: 2px solid #B98C33;
       border-top: 0.5px solid #B98C33;
@@ -113,10 +113,15 @@
       font-style: normal;
       font-weight: 500;
       line-height: normal;
+
+      width: 100%;
+      max-width: 400px;
+      margin: 14px auto 0 auto;
       @media (min-width: 1279px) {
         margin-top: 34px;
         height: 86px;
         font-size: 30px;
+        max-width: 100%;
       }
 
       a{
@@ -213,6 +218,15 @@
 .gallery-wrapper {
   margin-top: 90px;
 
+
+  .slideHorizontal___1NzNV{
+    height: 420px;
+    padding-bottom: 0!important;
+    @media (min-width: 1279px) {
+      height: 620px;
+    }
+
+  }
 
   .carousel{
     position: relative;

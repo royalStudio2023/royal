@@ -25,7 +25,9 @@ export const ContactUs = ({}) => {
                             target={'_blank'}
                             href='https://www.google.com/maps/place/Venecia/@40.8294862,43.8318849,20.22z/data=!4m6!3m5!1s0x4041f9a0b8c3af09:0xa11e75fec87a868c!8m2!3d40.8296413!4d43.8318712!16s%2Fg%2F1tjffb1s?entry=ttu'
                            >
-                            Մեր հասցեն է՝ Պարույր Սևակ 4ա, ՇՊՀ (նախկին Մանկավարժական համլսարան) հարևանությամբ:
+
+                            {t("Our address is: Paruyr Sevak 4a, next to SPU (former Pedagogical University).")}
+
                             {/*Armenia Gyumri, Paruyr Sevak 4a*/}
                         </a>
                     </p>
