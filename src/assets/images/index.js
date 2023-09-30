@@ -33,7 +33,42 @@ import hall8 from './img/halls/Hall08.png'
 import hall9 from './img/halls/Hall09.png'
 import hall10 from './img/halls/Hall10.png'
 
+
+import g1 from './gallary/barbie1.jpg'
+import g2 from './gallary/barbie2.jpg'
+import g3 from './gallary/barbie3.jpg'
+
+import g4 from './gallary/biog1.jpg'
+import g5 from './gallary/birthday.jpg'
+import g6 from './gallary/book.jpg'
+import g7 from './gallary/bs1.jpg'
+import g8 from './gallary/ches.jpg'
+import g9 from './gallary/dance3.jpeg'
+import g10 from './gallary/danceStudio.jpg'
+import g11 from './gallary/dancing.jpeg'
+import g12 from './gallary/fam1.jpg'
+import g13 from './gallary/gs.jpg'
+import g14 from './gallary/loon1.jpg'
+import g15 from './gallary/mg.jpg'
+import g16 from './gallary/scool1.jpg'
+
 export const Images = {
+    g1,
+    g2,
+    g3,
+    g4,
+    g5,
+    g6,
+    g7,
+    g8,
+    g9,
+    g10,
+    g11,
+    g12,
+    g13,
+    g14,
+    g15,
+    g16,
     hall1,
     hall2,
     hall3,
@@ -66,4 +101,8 @@ export const Images = {
     armenia,
     russia,
     checkmark,
+
+
+
+
 }
