@@ -536,6 +536,16 @@
       padding: 55px;
     }
 
+    .text{
+      text-align: center;
+      font-size: 18px;
+      font-weight: 600;
+      margin: 12px 0 ;
+    }
+    .text:first-child{
+      margin: 0 0 12px 0;
+    }
+
   }
 
   .ul-wrapper {
