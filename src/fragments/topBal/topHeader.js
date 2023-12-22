@@ -7,7 +7,7 @@ import {useTranslation} from "react-i18next";
 
 
 export const TopHeader = ({}) => {
-    const { t } = useTranslation();
+    const {t} = useTranslation();
     const navigate = useNavigate()
     const location = useLocation()
     const [state, setState] = React.useState(false);
@@ -67,8 +67,11 @@ export const TopHeader = ({}) => {
                     <a href={'#contact'}> {t("Contact us")}</a>
                 </div>
                 <div className='language-and-phone'>
-                   <a className='phone-number' href="tel:+37444033043">044 033 043</a>
-                   <Languages/>
+                    <div style={{display: 'flex', flexDirection: 'column'}}>
+                        <a className='phone-number' href="tel:+37444033043">044 033 043</a>
+                        <a style={{marginTop:'6px'}} className='phone-number' href="https://api.whatsapp.com/send?phone=+37444033043">{t("Book")}</a>
+                    </div>
+                    <Languages/>
                 </div>
             </div>
 
@@ -77,8 +80,8 @@ export const TopHeader = ({}) => {
                 onClose={toggleDrawer}
             >
                 <div className='drawe-body'>
-                    <div className='flex-end' style={{marginBottom:'20px'}}>
-                       <Languages/>
+                    <div className='flex-end' style={{marginBottom: '20px'}}>
+                        <Languages/>
                     </div>
 
                     <button
