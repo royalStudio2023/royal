@@ -41,7 +41,7 @@ export const Services = ({}) => {
                         <li>{t("3. Processed and printed photos are provided within 4-5 days")}</li>
                         <li>{t("4.Raw images are provided for an additional fee.")}</li>
                         <li>{t("5. In case of cancellation or time change, inform at least 2 days in advance.")}</li>
-                        <li>{t("6. Фотографировать на телефон запрещено.")}</li>
+                        <li>{t("6. It is not allowed to take photos with the phone.")}</li>
                         <li>{t("7. Please come with spare shoes.")}</li>
                         <li>{t("8. In the case of 5 or more persons, the minimum number of photos is 15. In the case of 10 persons, 20.")}</li>
                     </ul>
