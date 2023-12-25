@@ -108,6 +108,9 @@ export const TopHeader = ({}) => {
                     <div className='mobile-line'/>
 
                     <a href={'#contact'} onClick={() => setState(false)}> {t("Contact us")}</a>
+
+                    <a style={{marginTop: '16px', color: '#B98C33'}} className='phone-number'
+                       href="https://api.whatsapp.com/send?phone=+37444033043">{t("Book")}</a>
                 </div>
             </Drawer>
 
