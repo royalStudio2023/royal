@@ -9,6 +9,10 @@ import {
     DotGroup
 } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
+import g17 from "../../../assets/images/gallary/fam1.jpg";
+import g18 from "../../../assets/images/gallary/IMG_3518.JPG";
+import g19 from "../../../assets/images/gallary/ches.jpg";
+import g20 from "../../../assets/images/gallary/barbie3.jpg";
 
 export const Gallery = ({}) => {
     const {t} = useTranslation();
@@ -20,7 +24,7 @@ export const Gallery = ({}) => {
                 <CarouselProvider
                     naturalSlideWidth={1400}
                     naturalSlideHeight={800}
-                    totalSlides={4}
+                    totalSlides={5}
                 >
                     <ButtonBack className='prev-btn'>
                         <img src={Images.prew} alt="icon"/>
@@ -30,28 +34,37 @@ export const Gallery = ({}) => {
                     </ButtonNext>
                     <Slider>
                         <Slide index={0} className='current-slice-wrapper'>
-                            <img src={Images.g10} alt="icon" className='not-current-img' style={{margin: 0}}/>
-                            <img src={Images.g3} alt="icon" className='current-img'/>
-                            <img src={Images.g5} alt="icon" className='not-current-img'/>
-                            <img src={Images.g7} alt="icon" className='not-current-img'/>
+                            <img src={Images.g3 } alt="icon" className='not-current-img' style={{margin: 0}}/>
+                            <img src={Images.g16 } alt="icon" className='current-img'/>
+                            <img src={Images.g8 } alt="icon" className='not-current-img'/>
+                            <img src={Images.g12} alt="icon" className='not-current-img'/>
+
                         </Slide>
                         <Slide index={1}>
-                            <img src={Images.g2} alt="icon" className='not-current-img' style={{margin: 0}}/>
+                            <img src={Images.g7 } alt="icon" className='not-current-img' style={{margin: 0}}/>
                             <img src={Images.g6} alt="icon" className='current-img'/>
-                            <img src={Images.g8} alt="icon" className='not-current-img'/>
+                            <img src={Images.g5} alt="icon" className='not-current-img'/>
                             <img src={Images.g9} alt="icon" className='not-current-img'/>
                         </Slide>
                         <Slide index={2}>
                             <img src={Images.g1} alt="icon" className='not-current-img' style={{margin: 0}}/>
                             <img src={Images.g4} alt="icon" className='current-img'/>
                             <img src={Images.g11} alt="icon" className='not-current-img'/>
-                            <img src={Images.g12} alt="icon" className='not-current-img'/>
+                            <img src={Images.g2} alt="icon" className='not-current-img'/>
+
                         </Slide>
                         <Slide index={3}>
                             <img src={Images.g13} alt="icon" className='not-current-img' style={{margin: 0}}/>
                             <img src={Images.g14} alt="icon" className='current-img'/>
                             <img src={Images.g15} alt="icon" className='not-current-img'/>
-                            <img src={Images.g16} alt="icon" className='not-current-img'/>
+                            <img src={Images.g10} alt="icon" className='not-current-img'/>
+                        </Slide>
+
+                        <Slide index={4}>
+                            <img src={Images.g17} alt="icon" className='not-current-img' style={{margin: 0}}/>
+                            <img src={Images.g19} alt="icon" className='current-img'/>
+                            <img src={Images.g18} alt="icon" className='not-current-img'/>
+                            <img src={Images.g20} alt="icon" className='not-current-img'/>
                         </Slide>
                     </Slider>
                     <div className='slider-count'>
@@ -115,6 +128,22 @@ export const Gallery = ({}) => {
                         </Slide>
                         <Slide index={15}>
                             <img src={Images.g16} alt="icon" className='current-img'/>
+                        </Slide>
+
+                        <Slide index={16}>
+                            <img src={Images.g17} alt="icon" className='current-img'/>
+                        </Slide>
+
+                        <Slide index={17}>
+                            <img src={Images.g18} alt="icon" className='current-img'/>
+                        </Slide>
+
+                        <Slide index={18}>
+                            <img src={Images.g19} alt="icon" className='current-img'/>
+                        </Slide>
+
+                        <Slide index={19}>
+                            <img src={Images.g20} alt="icon" className='current-img'/>
                         </Slide>
                     </Slider>
                     <div className='slider-count'>

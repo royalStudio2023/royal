@@ -52,6 +52,11 @@ import g14 from './gallary/IMG_0647.jpg'
 import g15 from './gallary/IMG_0669-01.jpeg'
 import g16 from './gallary/IMG_0697-01.jpeg'
 
+import g17 from './gallary/fam1.jpg'
+import g18 from './gallary/IMG_3518.JPG'
+import g19 from './gallary/ches.jpg'
+import g20 from './gallary/barbie3.jpg'
+
 export const Images = {
     g1,
     g2,
@@ -69,6 +74,12 @@ export const Images = {
     g14,
     g15,
     g16,
+
+    g17,
+    g18,
+    g19,
+    g20,
+
     hall1,
     hall2,
     hall3,
